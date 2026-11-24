@@ -1,0 +1,972 @@
+{
+  "materials": [
+    {
+      "id": "mat-guia-teoria-7mo-grado",
+      "title": "Guía de Texto y Teoría Complementaria — 7° Grado (1 Página)",
+      "subtitle": "Síntesis teórica general de una sola página basada en las 6 unidades del Manual de 7° Grado.",
+      "category": "apuntes",
+      "subjectArea": "Ciencia y Tecnología",
+      "level": "Secundaria",
+      "grade": "7° Grado",
+      "price": 10,
+      "currency": "USD",
+      "format": "PDF · Hoja General (1 pág.)",
+      "pages": 1,
+      "durationOrScope": "1 Página · Panorama Unidades 1 a 6",
+      "coverImage": "/src/assets/images/cat_apuntes_biotech_1795526713277.jpg",
+      "previewExcerpt": "Hoja teórica general de 1 página diseñada para acompañar el Manual Completo de 7° Grado: resume en lenguaje claro las 6 unidades del año (química inorgánica, genética, biodiversidad, ecología, agua y energía).",
+      "generalOverviewPoints": [
+        "Unidades 1 y 2: Ácidos, bases, sales, agua, herencia mendeliana y adaptación.",
+        "Unidades 3 y 4: Clasificación de seres vivos, biodiversidad y flujo trófico en ecosistemas.",
+        "Unidades 5 y 6: Filtración y ciclo del agua, energía térmica solar y celdas químicas."
+      ],
+      "objectives": [
+        "Ofrecer al estudiante un marco teórico rápido y general en una sola hoja antes de cada práctica."
+      ],
+      "tableOfContents": [
+        "1. Compuestos Inorgánicos y Genética (Unidades 1 y 2)",
+        "2. Biodiversidad y Ecología (Unidades 3 y 4)",
+        "3. Recurso Hídrico y Energía (Unidades 5 y 6)"
+      ],
+      "featured": true,
+      "published": true,
+      "hasCustomFile": false,
+      "isComplementaryGuide": true,
+      "sourceWordId": "word-manual-7mo-2027",
+      "downloadCount": 0,
+      "createdAt": "2026-11-24T14:44:00.000Z",
+      "contentSections": [
+        {
+          "heading": "1. Compuestos Inorgánicos y Agua (Unidad 1)",
+          "body": "Los compuestos inorgánicos incluyen óxidos, ácidos (pH < 7, liberan H+), bases o hidróxidos (pH > 7, liberan OH-) y sales formadas al neutralizarse entre sí. El agua (H2O) es un compuesto inorgánico polar fundamental por su capacidad disolvente, cohesión y regulación térmica.",
+          "bullets": [
+            "Indicadores naturales (como el repollo morado) viran de color según el grado de acidez o alcalinidad.",
+            "Neutralización: Ácido + Base -> Sal + Agua; en las reacciones cotidianas cambian color, temperatura o se libera gas."
+          ]
+        },
+        {
+          "heading": "2. Genética, Evolución y Biodiversidad (Unidades 2 y 3)",
+          "body": "La herencia transmite información biológica de padres a hijos mediante genes y alelos dominantes o recesivos (Leyes de Mendel). La selección natural favorece variantes mejor adaptadas al entorno, generando la gran biodiversidad de microorganismos, plantas, invertebrados y vertebrados.",
+          "bullets": [
+            "Genotipo (información interna) frente a Fenotipo (rasgo visible); fósiles como evidencia del cambio evolutivo.",
+            "La taxonomía ordena los seres vivos por rasgos compartidos para estudiar su papel y promover su conservación."
+          ]
+        },
+        {
+          "heading": "3. Ecología, Recurso Hídrico y Energía (Unidades 4 a 6)",
+          "body": "En los ecosistemas interactúan factores bióticos (productores, consumidores y descomponedores) con factores abióticos (luz, suelo, temperatura y agua). La energía solar impulsa las cadenas tróficas y el ciclo hidrológico, transformándose sin destruirse en calor, movimiento o electricidad.",
+          "bullets": [
+            "Filtración escalonada (grava, arena y carbón): retiene sedimentos sólidos, pero requiere desinfección para potabilizar.",
+            "Energías limpias en clase: aprovechamiento térmico en hornos solares y reacciones redox en celdas de limón."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-plan-docente-7mo-grado",
+      "title": "Planificación Curricular Docente — 7° Grado",
+      "subtitle": "Secuencia anual de contenidos, jornalización de prácticas e indicadores de evaluación para 7° Grado.",
+      "category": "planificaciones",
+      "subjectArea": "Ciencia y Tecnología",
+      "level": "Docentes",
+      "grade": "7° Grado",
+      "price": 10,
+      "currency": "USD",
+      "format": "PDF Imprimible · Planificación",
+      "pages": 2,
+      "durationOrScope": "Año Lectivo · 6 Unidades",
+      "coverImage": "/src/assets/images/cat_planificaciones_robotics_1795526713198.jpg",
+      "previewExcerpt": "Planificación completa para el docente de 7° Grado que articula las 6 unidades oficiales (Compuestos Inorgánicos, Genética, Biodiversidad, Ecología, Recurso Hídrico y Energía) con las 24 prácticas del manual y su rúbrica.",
+      "generalOverviewPoints": [
+        "Distribución en 3 trimestres cubriendo las 6 unidades del manual completo.",
+        "Vinculación directa de cada clase teórica con las 24 prácticas de laboratorio.",
+        "Indicadores de logro y rúbricas de bitácora, debate y feria científica."
+      ],
+      "objectives": [
+        "Dosificar semanalmente la teoría y las 24 actividades del manual de 7° Grado.",
+        "Integrar la Guía Teórica de 1 página previo a cada sesión experimental.",
+        "Evaluar competencias científicas y trabajo colaborativo con criterios objetivos."
+      ],
+      "tableOfContents": [
+        "1. Dosificación trimestral de las 6 unidades (febrero – noviembre)",
+        "2. Secuencia didáctica: Compuestos Inorgánicos, Genética y Biodiversidad",
+        "3. Secuencia didáctica: Ecología, Recurso Hídrico y Energía",
+        "4. Estrategia de evaluación y rúbrica de laboratorio"
+      ],
+      "featured": true,
+      "published": true,
+      "hasCustomFile": false,
+      "sourceWordId": "word-manual-7mo-2027",
+      "downloadCount": 0,
+      "createdAt": "2026-11-24T14:44:00.000Z",
+      "contentSections": [
+        {
+          "heading": "1. Enfoque Metodológico y Dosificación Anual (7° Grado)",
+          "body": "Esta planificación organiza el ciclo lectivo de 7° Grado en tres trimestres, enlazando el contenido teórico del programa oficial con las 24 prácticas de fácil acceso del Manual Completo.",
+          "bullets": [
+            "Antes de cada práctica: entregar la Guía Teórica Complementaria de 1 página para fijar vocabulario y conceptos base.",
+            "Durante el laboratorio: trabajo en equipos de 3 a 4 estudiantes con registro ordenado de hipótesis y observaciones.",
+            "Al cierre de unidad: socialización de resultados y aplicación cotidiana con enfoque ambiental."
+          ]
+        },
+        {
+          "heading": "2. Trimestre I: Unidades 1 y 2 (Febrero – Abril)",
+          "body": "Introduce la química experimental cotidiana y los principios fundamentales de herencia biológica y evolución.",
+          "bullets": [
+            "Unidad 1 (Compuestos Inorgánicos): Identificación de ácidos/bases caseros, reacciones químicas, óxidos, sales y propiedades del agua.",
+            "Unidad 2 (Genética y Evolución): Rasgos heredados en el aula, primera ley de Mendel con modelos concretos, mutaciones y fósiles."
+          ]
+        },
+        {
+          "heading": "3. Trimestre II: Unidades 3 y 4 (Mayo – Agosto)",
+          "body": "Fortalece el análisis taxonómico local y la comprensión dinámica de cadenas alimentarias y equilibrio ecológico.",
+          "bullets": [
+            "Unidad 3 (Biodiversidad): Observación de organismos locales, clasificación de vertebrados/invertebrados y conservación.",
+            "Unidad 4 (Ecología): Factores bióticos y abióticos, redes tróficas, impacto humano y ecosistema cerrado en botella."
+          ]
+        },
+        {
+          "heading": "4. Trimestre III: Unidades 5 y 6 (Septiembre – Noviembre) y Evaluación",
+          "body": "Cierra el año con gestión responsable del agua y transformaciones energéticas limpias.",
+          "bullets": [
+            "Unidad 5 (Recurso Hídrico): Ciclo del agua, filtración escalonada, contaminación hídrica y consumo responsable.",
+            "Unidad 6 (Energía y sus Transformaciones): Horno solar térmico, celda galvánica de limón, ahorro energético y feria escolar.",
+            "Ponderación sugerida: 40% ejecución experimental y bitácora · 35% comprensión teórica · 25% debates y proyecto final."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-guia-teoria-8vo-grado",
+      "title": "Guía de Texto y Teoría Complementaria — 8° Grado (1 Página)",
+      "subtitle": "Síntesis teórica general de una sola página basada en las 7 unidades del Manual de 8° Grado.",
+      "category": "apuntes",
+      "subjectArea": "Ciencia y Tecnología",
+      "level": "Secundaria",
+      "grade": "8° Grado",
+      "price": 10,
+      "currency": "USD",
+      "format": "PDF · Hoja General (1 pág.)",
+      "pages": 1,
+      "durationOrScope": "1 Página · Panorama Unidades 1 a 7",
+      "coverImage": "/src/assets/images/cat_apuntes_biotech_1795526713277.jpg",
+      "previewExcerpt": "Hoja teórica general de 1 página complementaria al Manual Completo de 8° Grado: sintetiza en lenguaje claro las 7 unidades (mecánica, energía, ondas, dispersiones, minerales y fisiología vegetal/animal).",
+      "generalOverviewPoints": [
+        "Unidades 1 a 3: Leyes de Newton, velocidad, energía mecánica (Ep/Ec) y ondas sonoras.",
+        "Unidades 4 y 5: Soluciones, dispersiones, estequiometría y escala de dureza mineral de Mohs.",
+        "Unidades 6 y 7: Capilaridad y fotosíntesis vegetal; respiración, circulación y digestión animal."
+      ],
+      "objectives": [
+        "Resumir en 1 sola página la teoría general que respalda todas las prácticas de 8° Grado."
+      ],
+      "tableOfContents": [
+        "1. Mecánica, Energía y Ondas Mecánicas (Unidades 1 a 3)",
+        "2. Estequiometría, Dispersiones y Minerales (Unidades 4 y 5)",
+        "3. Anatomía y Fisiología Vegetal y Animal (Unidades 6 y 7)"
+      ],
+      "featured": false,
+      "published": true,
+      "hasCustomFile": false,
+      "isComplementaryGuide": true,
+      "sourceWordId": "word-manual-8vo-2027",
+      "downloadCount": 0,
+      "createdAt": "2026-11-24T14:44:00.000Z",
+      "contentSections": [
+        {
+          "heading": "1. Mecánica, Energía y Ondas Mecánicas (Unidades 1 a 3)",
+          "body": "Una fuerza modifica el estado de reposo o movimiento de un cuerpo (v = d / t) y la fricción se opone siempre al deslizamiento. Según la 3.ª ley de Newton, toda acción genera una reacción igual y opuesta. La energía mecánica suma energía potencial (Ep = m·g·h) y cinética (Ec = ½ m·v²), mientras las ondas mecánicas propagan vibración a través de un medio material sin transportar materia neta.",
+          "bullets": [
+            "En un péndulo ideal, Ep máxima en los extremos se convierte en Ec máxima en el punto más bajo.",
+            "Las ondas sonoras viajan más rápido en sólidos y líquidos que en gases debido a la cercanía entre partículas."
+          ]
+        },
+        {
+          "heading": "2. Estequiometría, Dispersiones y Minerales (Unidades 4 y 5)",
+          "body": "Las dispersiones se distinguen por tamaño de partícula: soluciones homogéneas (no sedimentan ni dispersan luz), coloides (efecto Tyndall) y suspensiones (sedimentan en reposo). En toda reacción química se conserva la masa total (Lavoisier). Los minerales son sólidos naturales inorgánicos identificables por dureza (escala de Mohs del 1 al 10), raya y brillo.",
+          "bullets": [
+            "Soluto + Solvente = Solución; la solubilidad aumenta generalmente con la temperatura en sólidos.",
+            "Escala de Mohs: compara qué mineral raya a otro (talco = 1, cuarzo = 7, diamante = 10)."
+          ]
+        },
+        {
+          "heading": "3. Anatomía y Fisiología Vegetal y Animal (Unidades 6 y 7)",
+          "body": "En las plantas, el xilema transporta agua y sales por capilaridad desde la raíz hasta las hojas, donde los estomas regulan el intercambio gaseoso para la fotosíntesis. En los animales y el ser humano, los sistemas trabajan integrados para sostener el metabolismo: digestión (absorción de nutrientes), respiración (intercambio O2/CO2) y circulación (bombeo sanguíneo).",
+          "bullets": [
+            "Fotosíntesis: dióxido de carbono + agua + luz -> glucosa + oxígeno en los cloroplastos.",
+            "La frecuencia cardíaca y respiratoria aumenta durante el ejercicio para suplir mayor demanda de oxígeno."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-plan-docente-8vo-grado",
+      "title": "Planificación Curricular Docente — 8° Grado",
+      "subtitle": "Secuencia didáctica anual, jornalización y evaluación para las 7 unidades del Manual de 8° Grado.",
+      "category": "planificaciones",
+      "subjectArea": "Ciencia y Tecnología",
+      "level": "Docentes",
+      "grade": "8° Grado",
+      "price": 10,
+      "currency": "USD",
+      "format": "PDF Imprimible · Planificación",
+      "pages": 2,
+      "durationOrScope": "Año Lectivo · 7 Unidades",
+      "coverImage": "/src/assets/images/cat_planificaciones_robotics_1795526713198.jpg",
+      "previewExcerpt": "Planificación anual estructurada para el docente de 8° Grado: integra las 28 prácticas de Mecánica, Energía, Ondas, Estequiometría y Dispersiones, Minerales, Anatomía Vegetal y Anatomía Animal.",
+      "generalOverviewPoints": [
+        "Secuenciación trimestral de las 7 unidades del programa de 8° Grado.",
+        "Guía metodológica para conectar fórmulas físicas y químicas con la práctica.",
+        "Criterios de evaluación para tablas de medición, gráficos y reportes."
+      ],
+      "objectives": [
+        "Coordinar las clases teóricas de 8° Grado con las 28 sesiones de laboratorio.",
+        "Estandarizar el uso de unidades del Sistema Internacional (SI) y análisis de datos.",
+        "Integrar la Guía Teórica de 1 página antes de cada bloque experimental."
+      ],
+      "tableOfContents": [
+        "1. Enfoque curricular y dosificación anual (8° Grado)",
+        "2. Trimestre I: Mecánica y Energía (Unidades 1 y 2)",
+        "3. Trimestre II: Ondas, Estequiometría/Dispersiones y Minerales (Unidades 3 a 5)",
+        "4. Trimestre III: Anatomía Vegetal y Animal (Unidades 6 y 7) + Evaluación"
+      ],
+      "featured": false,
+      "published": true,
+      "hasCustomFile": false,
+      "sourceWordId": "word-manual-8vo-2027",
+      "downloadCount": 0,
+      "createdAt": "2026-11-24T14:44:00.000Z",
+      "contentSections": [
+        {
+          "heading": "1. Enfoque Metodológico Anual (8° Grado)",
+          "body": "Estructura el año lectivo combinando experimentación guiada con análisis cuantitativo sencillo para 28 prácticas con insumos accesibles.",
+          "bullets": [
+            "Inicio de bloque: lectura comentada de la Guía Teórica General de 1 página.",
+            "Durante la práctica: medición sistemática de tiempo, distancia, masa o volumen en unidades SI."
+          ]
+        },
+        {
+          "heading": "2. Trimestre I: Unidades 1 y 2 (Mecánica y Energía)",
+          "body": "Consolida las bases de cinemática, dinámica de fuerzas y transformaciones energéticas cotidianas.",
+          "bullets": [
+            "Unidad 1 (Mecánica): Fuerzas con globos, velocidad en rampa, fricción en superficies y 3.ª ley de Newton.",
+            "Unidad 2 (Energía): Tipos de energía en el hogar, péndulo simple, cálculo de Ep y conservación mecánica."
+          ]
+        },
+        {
+          "heading": "3. Trimestre II: Unidades 3, 4 y 5 (Ondas, Química y Minerales)",
+          "body": "Conecta fenómenos vibratorios, separación de mezclas, proporciones químicas y propiedades físicas de minerales.",
+          "bullets": [
+            "Unidad 3 (Ondas Mecánicas): Ondas transversales/longitudinales, resonancia acústica y transmisión sonora.",
+            "Unidad 4 (Estequiometría y Dispersiones): Soluciones, coloides, suspensiones y conservación de masa.",
+            "Unidad 5 (Minerales): Brillo, raya, densidad y prueba de dureza relativa según la escala de Mohs."
+          ]
+        },
+        {
+          "heading": "4. Trimestre III: Unidades 6 y 7 (Fisiología Viva) y Evaluación",
+          "body": "Explora estructura-función en plantas y sistemas vitales animales con criterios de evaluación balanceados.",
+          "bullets": [
+            "Unidad 6 (Anatomía y Fisiología Vegetal): Germinación, capilaridad en tallos, estomas y fotosíntesis.",
+            "Unidad 7 (Anatomía y Fisiología Animal): Mecánica respiratoria, pulso cardíaco, digestión y reflejos.",
+            "Evaluación sugerida: 40% laboratorio y tablas de datos · 35% dominio teórico · 25% conclusiones escritas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-guia-teoria-9no-grado",
+      "title": "Guía de Texto y Teoría Complementaria — 9° Grado (1 Página)",
+      "subtitle": "Síntesis teórica general de una sola página basada en las 7 unidades del Manual de 9° Grado.",
+      "category": "apuntes",
+      "subjectArea": "Ciencia y Tecnología",
+      "level": "Secundaria",
+      "grade": "9° Grado",
+      "price": 10,
+      "currency": "USD",
+      "format": "PDF · Hoja General (1 pág.)",
+      "pages": 1,
+      "durationOrScope": "1 Página · Panorama Unidades 1 a 7",
+      "coverImage": "/src/assets/images/cat_apuntes_biotech_1795526713277.jpg",
+      "previewExcerpt": "Hoja teórica general de 1 página basada en el Manual Completo de 9° Grado: resume fluidos, calor y temperatura, equilibrio químico, oceanografía, geología de El Salvador, electricidad y magnetismo.",
+      "generalOverviewPoints": [
+        "Unidades 1 y 2: Viscosidad, presión (Pascal), flotación (Arquímedes) y transferencia de calor.",
+        "Unidades 3 a 5: Equilibrio químico (Le Chatelier), salinidad oceánica y geología volcánica local.",
+        "Unidades 6 y 7: Ley de Ohm en circuitos serie/paralelo, campos magnéticos y electroimanes."
+      ],
+      "objectives": [
+        "Brindar una visión teórica panorámica de 1 hoja para todas las prácticas de 9° Grado."
+      ],
+      "tableOfContents": [
+        "1. Mecánica de Fluidos y Calor (Unidades 1 y 2)",
+        "2. Equilibrio Químico, Oceanografía y Geología (Unidades 3 a 5)",
+        "3. Electricidad y Magnetismo Aplicado (Unidades 6 y 7)"
+      ],
+      "featured": false,
+      "published": true,
+      "hasCustomFile": false,
+      "isComplementaryGuide": true,
+      "sourceWordId": "word-manual-9no-2027",
+      "downloadCount": 0,
+      "createdAt": "2026-11-24T14:44:00.000Z",
+      "contentSections": [
+        {
+          "heading": "1. Mecánica de Fluidos y Calor (Unidades 1 y 2)",
+          "body": "Los fluidos ejercen presión proporcional a su densidad y profundidad (P = ρ·g·h) y transmiten presiones aplicadas por igual en todas direcciones (Principio de Pascal). Un cuerpo sumergido recibe un empuje igual al peso del fluido desalojado (Arquímedes). El calor fluye del cuerpo más caliente al más frío por conducción, convección o radiación, provocando dilatación térmica.",
+          "bullets": [
+            "Viscosidad: resistencia interna de un fluido al movimiento (mayor en miel/aceite que en agua).",
+            "Equilibrio térmico: dos cuerpos en contacto alcanzan igual temperatura tras transferir calor."
+          ]
+        },
+        {
+          "heading": "2. Equilibrio Químico, Oceanografía y Geología (Unidades 3 a 5)",
+          "body": "En una reacción reversible en equilibrio dinámico, la velocidad directa iguala a la inversa; al alterar concentración, presión o temperatura, el sistema se reajusta (Principio de Le Chatelier). En los océanos, temperatura y salinidad impulsan corrientes termohalinas, mientras la tectónica de placas y el vulcanismo modelan el relieve geológico de El Salvador.",
+          "bullets": [
+            "Agua fría y más salina es más densa y desciende en la columna oceánica.",
+            "Rocas ígneas, sedimentarias y metamórficas reflejan la historia volcánica y tectónica regional."
+          ]
+        },
+        {
+          "heading": "3. Electricidad y Magnetismo Aplicado (Unidades 6 y 7)",
+          "body": "La corriente eléctrica (I) es el flujo ordenado de carga por un conductor impulsado por voltaje (V) frente a una resistencia (R), cumpliendo la Ley de Ohm (V = I·R). Toda corriente eléctrica genera un campo magnético perpendicular, base de los electroimanes, brújulas desviadas y generadores.",
+          "bullets": [
+            "Circuito en serie: misma corriente en todos los elementos; en paralelo: igual voltaje entre ramas.",
+            "Polos magnéticos iguales se repelen y opuestos se atraen; la inducción produce corriente al variar el flujo magnético."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-plan-docente-9no-grado",
+      "title": "Planificación Curricular Docente — 9° Grado",
+      "subtitle": "Programación anual y secuencia didáctica para las 7 unidades del Manual de 9° Grado.",
+      "category": "planificaciones",
+      "subjectArea": "Ciencia y Tecnología",
+      "level": "Docentes",
+      "grade": "9° Grado",
+      "price": 10,
+      "currency": "USD",
+      "format": "PDF Imprimible · Planificación",
+      "pages": 2,
+      "durationOrScope": "Año Lectivo · 7 Unidades",
+      "coverImage": "/src/assets/images/cat_planificaciones_robotics_1795526713198.jpg",
+      "previewExcerpt": "Planificación docente de 9° Grado que enlaza las sesiones teóricas con las 28 prácticas de Fluidos, Calor, Equilibrio Químico, Oceanografía, Geología de El Salvador, Electricidad y Magnetismo.",
+      "generalOverviewPoints": [
+        "Jornalización anual ordenada de las 7 unidades de cierre de Tercer Ciclo.",
+        "Orientaciones de seguridad eléctrica y térmica en el laboratorio escolar.",
+        "Instrumentos de evaluación formativa y sumativa por unidad."
+      ],
+      "objectives": [
+        "Planificar la progresión conceptual y experimental de cierre de Tercer Ciclo.",
+        "Garantizar manejo seguro de circuitos eléctricos y fuentes de calor en clase.",
+        "Vincular la Guía Teórica de 1 página con la resolución de problemas."
+      ],
+      "tableOfContents": [
+        "1. Enfoque curricular de 9° Grado y seguridad en laboratorio",
+        "2. Trimestre I: Mecánica de Fluidos y Calor (Unidades 1 y 2)",
+        "3. Trimestre II: Equilibrio Químico, Oceanografía y Geología (Unidades 3 a 5)",
+        "4. Trimestre III: Electricidad y Magnetismo (Unidades 6 y 7) + Evaluación"
+      ],
+      "featured": false,
+      "published": true,
+      "hasCustomFile": false,
+      "sourceWordId": "word-manual-9no-2027",
+      "downloadCount": 0,
+      "createdAt": "2026-11-24T14:44:00.000Z",
+      "contentSections": [
+        {
+          "heading": "1. Enfoque Curricular y Normas de Seguridad (9° Grado)",
+          "body": "Prepara al estudiantado para Educación Media articulando las 7 unidades oficiales mediante experimentación cuantitativa controlada.",
+          "bullets": [
+            "Antes de cada práctica: estudio breve de la Guía Teórica Complementaria de 1 página.",
+            "Seguridad térmica y eléctrica: manipular agua caliente bajo supervisión y emplear pilas de bajo voltaje (1.5V–9V)."
+          ]
+        },
+        {
+          "heading": "2. Trimestre I: Unidades 1 y 2 (Fluidos y Termodinámica Inicial)",
+          "body": "Desarrolla el estudio de fluidos en reposo y fenómenos térmicos mediante montajes escolares reproducibles.",
+          "bullets": [
+            "Unidad 1 (Mecánica de Fluidos): Viscosidad comparada, presión hidrostática, principio de Pascal con jeringas y empuje de Arquímedes.",
+            "Unidad 2 (Calor y Temperatura): Dilatación térmica, conducción/convección/radiación y calibración de termómetro casero."
+          ]
+        },
+        {
+          "heading": "3. Trimestre II: Unidades 3, 4 y 5 (Equilibrio, Océanos y Geología)",
+          "body": "Conecta la reversibilidad química con la dinámica oceánica y el relieve volcánico y sísmico regional.",
+          "bullets": [
+            "Unidad 3 (Equilibrio Químico): Reacciones reversibles, efecto de temperatura/concentración y principio de Le Chatelier.",
+            "Unidad 4 (Oceanografía): Salinidad y densidad marina, corrientes por temperatura y modelado de mareas.",
+            "Unidad 5 (Geología de El Salvador): Clasificación de rocas, suelos volcánicos, fallas y prevención sísmica."
+          ]
+        },
+        {
+          "heading": "4. Trimestre III: Unidades 6 y 7 (Electricidad y Magnetismo) y Evaluación",
+          "body": "Integra análisis de circuitos con electromagnetismo aplicado y criterios de valoración equilibrados.",
+          "bullets": [
+            "Unidad 6 (Electricidad): Electrostática, conductividad, circuitos en serie y paralelo y ley de Ohm.",
+            "Unidad 7 (Magnetismo Aplicado): Líneas de campo magnético, electroimán casero, brújula e inducción elemental.",
+            "Ponderación sugerida: 40% montaje experimental y seguridad · 35% dominio teórico · 25% análisis gráfico."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-guia-teoria-1ro-bach",
+      "title": "Guía de Texto y Teoría Complementaria — 1° Año Bachillerato (1 Página)",
+      "subtitle": "Síntesis teórica general de una sola página basada en las 8 unidades del Manual de 1° Año.",
+      "category": "apuntes",
+      "subjectArea": "Ciencia y Tecnología (Educación Media)",
+      "level": "Bachillerato",
+      "grade": "1° Año Bachillerato",
+      "price": 10,
+      "currency": "USD",
+      "format": "PDF · Hoja General (1 pág.)",
+      "pages": 1,
+      "durationOrScope": "1 Página · Panorama Unidades 1 a 8",
+      "coverImage": "/src/assets/images/cat_apuntes_biotech_1795526713277.jpg",
+      "previewExcerpt": "Hoja teórica general de 1 página basada en el Manual de 1° Año de Bachillerato: integra las 8 unidades oficiales (electroquímica, electromagnetismo, óptica, química orgánica, biomoléculas, célula y fisiología).",
+      "generalOverviewPoints": [
+        "Unidades 1 a 3: Celdas redox (E°), inducción de Faraday-Lenz, difracción, Snell y lentes.",
+        "Unidades 4 y 5: Hibridación sp³/sp²/sp, nomenclatura IUPAC, grupos funcionales e isomería.",
+        "Unidades 6 a 8: Biomoléculas, cinética de catalasa, fermentación, cromatografía y homeostasis."
+      ],
+      "objectives": [
+        "Sintetizar en 1 sola página los principios teóricos esenciales de todo 1° Año de Bachillerato."
+      ],
+      "tableOfContents": [
+        "1. Electroquímica, Electromagnetismo y Óptica (Unidades 1 a 3)",
+        "2. Introducción a la Química Orgánica y Grupos Funcionales (Unidades 4 y 5)",
+        "3. Biomoléculas, Biología Celular y Fisiología Humana (Unidades 6 a 8)"
+      ],
+      "featured": true,
+      "published": true,
+      "hasCustomFile": false,
+      "isComplementaryGuide": true,
+      "sourceWordId": "word-manual-1ro-bach-2027",
+      "downloadCount": 0,
+      "createdAt": "2026-11-24T14:44:00.000Z",
+      "contentSections": [
+        {
+          "heading": "1. Electroquímica, Electromagnetismo y Óptica (Unidades 1 a 3)",
+          "body": "En las reacciones redox hay transferencia electrónica: el ánodo se oxida y el cátodo se reduce, generando voltaje espontáneo (E°celda > 0) en celdas galvánicas o consumiendo corriente en la electrólisis. En electromagnetismo, la variación del flujo magnético induce fuerza electromotriz (Ley de Faraday-Lenz) y origina ondas que se propagan por el espacio. En óptica, la luz presenta difracción, polarización y refracción regida por la Ley de Snell (n1·sen θ1 = n2·sen θ2) y la ecuación de lentes delgadas (1/f = 1/do + 1/di).",
+          "bullets": [
+            "Electrolitos fuertes se disocian completamente elevando la conductividad eléctrica en medio acuoso.",
+            "Reflexión interna total: ocurre cuando la luz pasa a menor índice superando el ángulo crítico."
+          ]
+        },
+        {
+          "heading": "2. Química Orgánica e Isomería (Unidades 4 y 5)",
+          "body": "El átomo de carbono forma cuatro enlaces covalentes mediante hibridación sp³ (alcanos tetraédricos, simples), sp² (alquenos planos, dobles) o sp (alquinos lineales, triples). Las propiedades y reactividad dependen de los grupos funcionales: alcoholes (-OH), fenoles, éteres (-O-), aldehídos/cetonas (C=O), ácidos carboxílicos (-COOH) y aminas (-NH2). La estereoquímica estudia compuestos con igual fórmula pero distinta disposición espacial (isómeros constitucionales y quirales).",
+          "bullets": [
+            "Los hidrocarburos insaturados reaccionan con mayor rapidez en pruebas de adición que los alcanos saturados."
+          ]
+        },
+        {
+          "heading": "3. Biomoléculas, Célula y Fisiología Humana (Unidades 6 a 8)",
+          "body": "Las biomoléculas —carbohidratos (energía inmediata), lípidos (membranas y reserva), proteínas (enzimas y estructura) y ácidos nucleicos (ADN/ARN)— organizan la célula viva. Las enzimas como la catalasa aceleran reacciones metabólicas reduciendo la energía de activación dentro de rangos óptimos de pH y temperatura; la fermentación genera ATP sin oxígeno y la cromatografía separa pigmentos por afinidad (Rf). Finalmente, los sistemas respiratorio, circulatorio y nervioso mantienen la homeostasis fisiológica humana.",
+          "bullets": [
+            "Enzima desnaturalizada por calor extremo o pH fuera de rango pierde su estructura terciaria y actividad.",
+            "Homeostasis: autorregulación dinámica de ritmo cardíaco, ventilación y temperatura ante estímulos externos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-plan-docente-1ro-bach",
+      "title": "Planificación Curricular Docente — 1° Año Bachillerato",
+      "subtitle": "Jornalización quincenal docente 2027 para las 8 unidades oficiales de 1° Año.",
+      "category": "planificaciones",
+      "subjectArea": "Ciencia y Tecnología (Educación Media)",
+      "level": "Docentes",
+      "grade": "1° Año Bachillerato",
+      "price": 10,
+      "currency": "USD",
+      "format": "PDF Imprimible · Planificación",
+      "pages": 2,
+      "durationOrScope": "Jornalización Quincenal 2027 · 8 Unidades",
+      "coverImage": "/src/assets/images/cat_planificaciones_robotics_1795526713198.jpg",
+      "previewExcerpt": "Planificación docente de Educación Media alineada al Manual 2027 (enero–octubre): coordina las 8 unidades MINED, 20 prácticas quincenales, normas SI/IUPAC y evaluación auténtica.",
+      "generalOverviewPoints": [
+        "Calendario quincenal enero–octubre 2027 vinculado al manual de prácticas.",
+        "Secuenciación de Electroquímica, Electromagnetismo, Óptica, Orgánica y Biología.",
+        "Rúbricas de evaluación auténtica para reportes cuantitativos de bachillerato."
+      ],
+      "objectives": [
+        "Sincronizar la teoría de aula con las 20 prácticas quincenales de 1° Año.",
+        "Aplicar criterios uniformes de medición, nomenclatura IUPAC, seguridad y análisis.",
+        "Integrar la Guía Teórica de 1 página antes de cada práctica quincenal."
+      ],
+      "tableOfContents": [
+        "1. Enfoque ICC+I y cronograma quincenal 2027",
+        "2. Trimestre I: Electroquímica, Electromagnetismo y Óptica (Unidades 1 a 3)",
+        "3. Trimestre II: Química Orgánica y Grupos Funcionales (Unidades 4 y 5)",
+        "4. Trimestre III: Biomoléculas, Célula y Fisiología (Unidades 6 a 8) + Evaluación"
+      ],
+      "featured": false,
+      "published": true,
+      "hasCustomFile": false,
+      "sourceWordId": "word-manual-1ro-bach-2027",
+      "downloadCount": 0,
+      "createdAt": "2026-11-24T14:44:00.000Z",
+      "contentSections": [
+        {
+          "heading": "1. Enfoque Pedagógico y Jornalización Quincenal 2027",
+          "body": "Coordina cada 15 días las 20 prácticas oficiales (enero–octubre 2027) con el programa oficial de Ciencia y Tecnología bajo el enfoque ICC+I.",
+          "bullets": [
+            "Semana previa al laboratorio: revisión teórica con la Guía Complementaria de 1 página y notación SI/IUPAC.",
+            "Sesión experimental: ejecución por equipos, registro cuantitativo y cálculo de error porcentual."
+          ]
+        },
+        {
+          "heading": "2. Bloque Físico-Químico: Unidades 1 a 3 (Enero – Abril)",
+          "body": "Integra electroquímica cuantitativa, inducción electromagnética, ondas y óptica geométrica y física.",
+          "bullets": [
+            "Unidad 1 (Electroquímica, Prácticas 1–2): Conductividad de electrolitos, celda galvánica (E°celda) y electrólisis del agua.",
+            "Unidad 2 (Electromagnetismo, Prácticas 3–4): Ley de Faraday-Lenz, generador escolar y propagación/atenuación RF.",
+            "Unidad 3 (Óptica, Prácticas 5–7): Espectroscopio de difracción, Ley de Snell y banco óptico de lentes delgadas."
+          ]
+        },
+        {
+          "heading": "3. Bloque Orgánico: Unidades 4 y 5 (Mayo – Julio)",
+          "body": "Introduce la química del carbono desde su geometría de enlace hasta la identificación analítica de grupos funcionales.",
+          "bullets": [
+            "Unidad 4 (Introducción Orgánica, Prácticas 8–9): Hibridación sp³/sp²/sp, hidrocarburos saturados/insaturados y combustión.",
+            "Unidad 5 (Compuestos Orgánicos, Prácticas 10–12): Alcoholes, fenoles, carbonilos/carboxilos e isomería estereoquímica."
+          ]
+        },
+        {
+          "heading": "4. Bloque Bioquímico y Fisiológico: Unidades 6 a 8 (Julio – Octubre)",
+          "body": "Articula biomoléculas, metabolismo celular y fisiología humana con evaluación experimental auténtica.",
+          "bullets": [
+            "Unidad 6 (Biomoléculas, Prácticas 13–15): Proteínas, carbohidratos, lípidos y extracción de ADN.",
+            "Unidad 7 (Biología Celular, Prácticas 16–18): Actividad enzimática de catalasa, fermentación y cromatografía (Rf).",
+            "Unidad 8 (Fisiología Humana, Prácticas 19–20): Respuesta cardiovascular, respiratoria y evaluación final (40/35/25%)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-guia-teoria-2do-bach",
+      "title": "Guía de Texto y Teoría Complementaria — 2° Año Bachillerato (1 Página)",
+      "subtitle": "Síntesis teórica general de una sola página basada en las 8 unidades del Manual de 2° Año.",
+      "category": "apuntes",
+      "subjectArea": "Ciencia y Tecnología (Educación Media)",
+      "level": "Bachillerato",
+      "grade": "2° Año Bachillerato",
+      "price": 10,
+      "currency": "USD",
+      "format": "PDF · Hoja General (1 pág.)",
+      "pages": 1,
+      "durationOrScope": "1 Página · Panorama Unidades 1 a 8",
+      "coverImage": "/src/assets/images/cat_apuntes_biotech_1795526713277.jpg",
+      "previewExcerpt": "Hoja teórica general de 1 página basada en el Manual de 2° Año: sintetiza las 8 unidades oficiales (ciencias del espacio, física moderna, genética evolutiva, biodiversidad, biotecnología, materiales y ecología).",
+      "generalOverviewPoints": [
+        "Unidades 1 y 2: Gravitación universal, tránsito de exoplanetas, constante de Planck (h) y vida media.",
+        "Unidades 3 y 4: Ploidía, índice mitótico, prueba Chi-cuadrado (χ²), Jaccard/Sørensen y UPGMA.",
+        "Unidades 5 a 8: Cultivos estériles (UFC), hidroponía, bioplásticos poliméricos, DBO e ICA."
+      ],
+      "objectives": [
+        "Ofrecer una síntesis teórica general de 1 sola página para todas las prácticas de 2° Año."
+      ],
+      "tableOfContents": [
+        "1. Ciencias del Espacio y Física Moderna (Unidades 1 y 2)",
+        "2. Genética Evolutiva y Análisis de Biodiversidad (Unidades 3 y 4)",
+        "3. Biotecnología, Ciencia de Materiales y Ecología (Unidades 5 a 8)"
+      ],
+      "featured": true,
+      "published": true,
+      "hasCustomFile": false,
+      "isComplementaryGuide": true,
+      "sourceWordId": "word-manual-2do-bach-2027",
+      "downloadCount": 0,
+      "createdAt": "2026-11-24T14:44:00.000Z",
+      "contentSections": [
+        {
+          "heading": "1. Ciencias del Espacio y Física Moderna (Unidades 1 y 2)",
+          "body": "Las leyes de Kepler y la Gravitación Universal permiten relacionar periodo orbital, gravedad local (g) y masa planetaria, mientras la fotometría detecta exoplanetas por la caída periódica de brillo estelar (ΔF/F) durante su tránsito. En física moderna, la energía está cuantizada por fotones (E = h·f = h·c/λ), observable en el voltaje umbral de LEDs (e·V ≈ h·f), y el decaimiento nuclear sigue una curva exponencial regida por la vida media (T1/2).",
+          "bullets": [
+            "T1/2 constante: tras cada periodo de vida media se desintegra exactamente la mitad de la muestra remanente."
+          ]
+        },
+        {
+          "heading": "2. Bases Genéticas de la Evolución y Biodiversidad (Unidades 3 y 4)",
+          "body": "El ADN varía en cantidad por especie y grado de ploidía (diploide vs poliploide). El ciclo celular regula la mitosis (Índice Mitótico = células en división / total observado), mientras mutaciones y selección natural alteran frecuencias alélicas (p, q). Para comparar comunidades ecológicas se aplican pruebas estadísticas como Chi-cuadrado (χ² = Σ(O−E)²/E), coeficientes de similitud de Jaccard / Dice-Sørensen y agrupamientos jerárquicos UPGMA.",
+          "bullets": [
+            "La similitud biológica cuantifica especies compartidas frente al total registrado entre dos sitios."
+          ]
+        },
+        {
+          "heading": "3. Biotecnología, Materiales y Ecología Cuantitativa (Unidades 5 a 8)",
+          "body": "La biotecnología microbiana cultiva microorganismos bajo estricta asepsia para cuantificar colonias (UFC) y evaluar sustancias antimicrobianas; en el área vegetal emplea fitohormonas e hidroponía para optimizar crecimiento sin suelo. En ciencia de materiales, los bioplásticos dependen del entrecruzamiento de cadenas poliméricas, y en ecología se monitorea el impacto ambiental mediante DBO (demanda bioquímica de oxígeno), microplásticos e Índice de Calidad del Agua (ICA).",
+          "bullets": [
+            "Bioseguridad: sellar e inactivar cultivos microbianos al finalizar el conteo sin abrir placas contaminadas.",
+            "Menor oxígeno disuelto y alta DBO indican mayor carga orgánica contaminante en un cuerpo hídrico."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-plan-docente-2do-bach",
+      "title": "Planificación Curricular Docente — 2° Año Bachillerato",
+      "subtitle": "Jornalización quincenal docente 2027 para las 8 unidades oficiales de 2° Año.",
+      "category": "planificaciones",
+      "subjectArea": "Ciencia y Tecnología (Educación Media)",
+      "level": "Docentes",
+      "grade": "2° Año Bachillerato",
+      "price": 10,
+      "currency": "USD",
+      "format": "PDF Imprimible · Planificación",
+      "pages": 2,
+      "durationOrScope": "Jornalización Quincenal 2027 · 8 Unidades",
+      "coverImage": "/src/assets/images/cat_planificaciones_robotics_1795526713198.jpg",
+      "previewExcerpt": "Planificación docente de cierre de Educación Media (enero–octubre 2027): articula las 8 unidades MINED de 2° Año, prácticas cuantitativas, bioseguridad microbiológica y matrices de evaluación.",
+      "generalOverviewPoints": [
+        "Programación quincenal de las 20 prácticas avanzadas (27 ene – oct 2027).",
+        "Protocolos de bioseguridad en prácticas de cultivo microbiano y polímeros.",
+        "Criterios de evaluación estadística (χ², regresiones, Jaccard e ICA)."
+      ],
+      "objectives": [
+        "Organizar el último año de bachillerato conectando laboratorio cuantitativo y análisis de datos.",
+        "Garantizar prácticas microbiológicas seguras con esterilización escolar e inactivación final.",
+        "Apoyar la nivelación teórica con la Guía Complementaria de 1 página por grado."
+      ],
+      "tableOfContents": [
+        "1. Enfoque investigativo y jornalización anual quincenal 2027",
+        "2. Unidades 1 a 4: Espacio, Física Moderna, Genética y Biodiversidad",
+        "3. Unidades 5 a 8: Biotecnología Microbiana, Vegetal, Materiales y Ecología",
+        "4. Bioseguridad y rúbrica de evaluación estadística"
+      ],
+      "featured": false,
+      "published": true,
+      "hasCustomFile": false,
+      "sourceWordId": "word-manual-2do-bach-2027",
+      "downloadCount": 0,
+      "createdAt": "2026-11-24T14:44:00.000Z",
+      "contentSections": [
+        {
+          "heading": "1. Enfoque Preuniversitario y Jornalización Quincenal 2027",
+          "body": "Calendariza las 20 sesiones experimentales (enero–octubre 2027) integrando modelado matemático, estadística biológica y sostenibilidad ambiental.",
+          "bullets": [
+            "Antes de cada práctica: síntesis conceptual mediante la Guía Teórica Complementaria de 1 página.",
+            "Durante la sesión: tratamiento estadístico de datos en tablas y cálculo de incertidumbres."
+          ]
+        },
+        {
+          "heading": "2. Bloque Físico-Astronómico y Evolutivo: Unidades 1 a 4 (Enero – Junio)",
+          "body": "Conecta astrofísica observacional, cuantización de la energía, genética molecular y análisis matemático de comunidades.",
+          "bullets": [
+            "Unidad 1 (Ciencias del Espacio, Prácticas 1–2): Gravedad local/masa terrestre y fotometría de tránsito de exoplanetas.",
+            "Unidad 2 (Física Moderna, Prácticas 3–4): Constante de Planck con LEDs y modelado de vida media (T1/2).",
+            "Unidad 3 (Genética Evolutiva, Prácticas 5–7): ADN según ploidía, índice mitótico y simulación de selección.",
+            "Unidad 4 (Análisis de Biodiversidad, Prácticas 8–10): Cruces dihíbridos con χ², índices Jaccard/Sørensen y UPGMA."
+          ]
+        },
+        {
+          "heading": "3. Bloque Biotecnológico, Materiales y Ambiente: Unidades 5 a 8 (Junio – Octubre)",
+          "body": "Aplica biotecnología segura, ciencia de polímeros y monitoreo fisicoquímico ambiental.",
+          "bullets": [
+            "Unidad 5 (Biotecnología Microbiana, Prácticas 11–12): Medio sólido estéril, conteo de colonias (UFC) y antagonismo.",
+            "Unidad 6 (Biotecnología Vegetal, Prácticas 13–16): Fitohormonas, hidroponía y manejo agroindustrial.",
+            "Unidad 7 (Ciencia de Materiales, Prácticas 17–18): Síntesis de bioplásticos, elasticidad y biodegradación.",
+            "Unidad 8 (Ecología y Ambiente, Prácticas 19–20): Microplásticos, DBO e Índice de Calidad del Agua (ICA)."
+          ]
+        },
+        {
+          "heading": "4. Bioseguridad y Evaluación Estadística",
+          "body": "Exige sellado e inactivación de cultivos microbianos con hipoclorito tras el conteo de UFC.",
+          "bullets": [
+            "40% Ejecución experimental rigurosa y cumplimiento de bioseguridad.",
+            "35% Procesamiento matemático/estadístico (χ², regresiones, índices) y teoría general.",
+            "25% Discusión científica y proyecto integrador."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-manual-practicas-7mo",
+      "title": "Manual Completo de Prácticas de Laboratorio — 7° Grado",
+      "subtitle": "Documento completo sin desglosar en Word (.docx) con jornalización anual y 24 prácticas de laboratorio.",
+      "category": "practicas",
+      "subjectArea": "Ciencia y Tecnología",
+      "level": "Secundaria",
+      "grade": "7° Grado",
+      "price": 10,
+      "currency": "USD",
+      "format": "DOCX Completo (Editable)",
+      "pages": 32,
+      "durationOrScope": "6 Unidades · 24 Prácticas",
+      "coverImage": "/src/assets/images/cat_practicas_microscope_1795526712665.jpg",
+      "previewExcerpt": "Manual íntegro de 7° Grado sin desglosar. Integra experiencias con materiales accesibles sobre compuestos inorgánicos, herencia y evolución, biodiversidad, ecosistemas, purificación de agua y energías renovables.",
+      "generalOverviewPoints": [
+        "Unidad 1: Indicadores naturales de pH, ácidos, bases y formación de sales.",
+        "Unidad 2 y 3: Herencia familiar, fósiles, clasificación de especies y conservación.",
+        "Unidad 4 a 6: Ecosistema en botella, filtros de agua, horno solar y celda de limón."
+      ],
+      "objectives": [
+        "Ejecutar 24 prácticas seguras y accesibles alineadas al programa de 7° Grado.",
+        "Disponer del manual completo editable sin desglosar listo para imprimir o adaptar."
+      ],
+      "tableOfContents": [
+        "1. Jornalización anual propuesta (7° Grado)",
+        "2. Unidades 1 a 3: Química inorgánica, genética y biodiversidad",
+        "3. Unidades 4 a 6: Ecología, recurso hídrico y energía"
+      ],
+      "featured": true,
+      "published": true,
+      "hasCustomFile": true,
+      "customFilePath": "word-17997560-bf84-4159-9eb8-ac0b1b657ff7.docx",
+      "customFileName": "Manual_Practicas_7mo_Grado_Ciencia_y_Tecnologia.docx",
+      "customFileMime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sourceWordId": "word-manual-7mo-2027",
+      "downloadCount": 0,
+      "createdAt": "2026-11-24T14:41:00.000Z",
+      "contentSections": []
+    },
+    {
+      "id": "mat-manual-practicas-8vo",
+      "title": "Manual Completo de Prácticas de Laboratorio — 8° Grado",
+      "subtitle": "Documento completo sin desglosar en Word (.docx) con jornalización anual y 28 prácticas.",
+      "category": "practicas",
+      "subjectArea": "Ciencia y Tecnología",
+      "level": "Secundaria",
+      "grade": "8° Grado",
+      "price": 10,
+      "currency": "USD",
+      "format": "DOCX Completo (Editable)",
+      "pages": 38,
+      "durationOrScope": "7 Unidades · 28 Prácticas",
+      "coverImage": "/src/assets/images/cat_practicas_microscope_1795526712665.jpg",
+      "previewExcerpt": "Manual íntegro de 8° Grado sin desglosar en formato Word editable. Cubre Mecánica, Energía, Ondas Mecánicas, Estequiometría y Dispersiones, Minerales, Anatomía Vegetal y Anatomía Animal.",
+      "generalOverviewPoints": [
+        "Unidades 1 a 3: Leyes de Newton, péndulo, energía mecánica y ondas sonoras.",
+        "Unidades 4 y 5: Dispersiones, estequiometría inicial y dureza mineral de Mohs.",
+        "Unidades 6 y 7: Capilaridad, germinación, respiración y sistema circulatorio."
+      ],
+      "objectives": [
+        "Desarrollar 28 experiencias prácticas de física, química, mineralogía y biología.",
+        "Contar con el manual completo en Word listo para adaptar o imprimir."
+      ],
+      "tableOfContents": [
+        "1. Jornalización anual de prácticas (8° Grado)",
+        "2. Unidades 1 a 4: Mecánica, Energía, Ondas y Dispersiones",
+        "3. Unidades 5 a 7: Minerales, Fisiología Vegetal y Fisiología Animal"
+      ],
+      "featured": false,
+      "published": true,
+      "hasCustomFile": true,
+      "customFilePath": "word-c43cf9ca-cea7-458a-abe5-4f71ab348106.docx",
+      "customFileName": "Manual_Practicas_8vo_Grado_Ciencia_y_Tecnologia.docx",
+      "customFileMime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sourceWordId": "word-manual-8vo-2027",
+      "downloadCount": 0,
+      "createdAt": "2026-11-24T14:41:00.000Z",
+      "contentSections": []
+    },
+    {
+      "id": "mat-manual-practicas-9no",
+      "title": "Manual Completo de Prácticas de Laboratorio — 9° Grado",
+      "subtitle": "Documento completo sin desglosar en Word (.docx) con jornalización anual y 28 prácticas.",
+      "category": "practicas",
+      "subjectArea": "Ciencia y Tecnología",
+      "level": "Secundaria",
+      "grade": "9° Grado",
+      "price": 10,
+      "currency": "USD",
+      "format": "DOCX Completo (Editable)",
+      "pages": 40,
+      "durationOrScope": "7 Unidades · 28 Prácticas",
+      "coverImage": "/src/assets/images/cat_practicas_microscope_1795526712665.jpg",
+      "previewExcerpt": "Manual íntegro de 9° Grado sin desglosar en formato Word editable. Abarca Mecánica de Fluidos, Calor y Temperatura, Equilibrio Químico, Oceanografía, Geología de El Salvador, Electricidad y Magnetismo.",
+      "generalOverviewPoints": [
+        "Unidades 1 a 3: Densidad, Pascal, Arquímedes, dilatación térmica y equilibrio químico.",
+        "Unidades 4 y 5: Corrientes oceánicas, salinidad, rocas y geología volcánica local.",
+        "Unidades 6 y 7: Carga eléctrica, circuitos serie/paralelo, electroimanes e inducción."
+      ],
+      "objectives": [
+        "Aplicar principios de fluidos, termodinámica, equilibrio y electromagnetismo en 28 prácticas.",
+        "Editar e imprimir las guías completas de 9° Grado directamente desde Word."
+      ],
+      "tableOfContents": [
+        "1. Jornalización anual de prácticas (9° Grado)",
+        "2. Unidades 1 a 4: Fluidos, Calor, Equilibrio y Oceanografía",
+        "3. Unidades 5 a 7: Geología local, Electricidad y Magnetismo"
+      ],
+      "featured": false,
+      "published": true,
+      "hasCustomFile": true,
+      "customFilePath": "word-2b54aed0-37aa-4c9b-abf5-05a89d6566af.docx",
+      "customFileName": "Manual_Practicas_9no_Grado_Ciencia_y_Tecnologia.docx",
+      "customFileMime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sourceWordId": "word-manual-9no-2027",
+      "downloadCount": 0,
+      "createdAt": "2026-11-24T14:41:00.000Z",
+      "contentSections": []
+    },
+    {
+      "id": "mat-manual-practicas-1ro-bach",
+      "title": "Manual Completo de Prácticas de Laboratorio — 1° Año Bachillerato",
+      "subtitle": "Manual MINED completo sin desglosar en Word (.docx) con 20 prácticas quincenales (2027).",
+      "category": "practicas",
+      "subjectArea": "Ciencia y Tecnología (Educación Media)",
+      "level": "Bachillerato",
+      "grade": "1° Año Bachillerato",
+      "price": 10,
+      "currency": "USD",
+      "format": "DOCX Completo (Editable)",
+      "pages": 42,
+      "durationOrScope": "8 Unidades · 20 Prácticas Quincenales",
+      "coverImage": "/src/assets/images/cat_practicas_microscope_1795526712665.jpg",
+      "previewExcerpt": "Manual íntegro de 1° Año de Bachillerato sin desglosar en formato Word editable. Incluye Electroquímica, Electromagnetismo, Óptica, Química Orgánica, Biomoléculas, Biología Celular y Fisiología Humana.",
+      "generalOverviewPoints": [
+        "Unidades 1 a 3: Celdas galvánicas, inducción de Faraday-Lenz, espectroscopio y lentes.",
+        "Unidades 4 a 6: Hibridación del carbono, grupos funcionales, ADN y almidón.",
+        "Unidades 7 y 8: Enzima catalasa, fermentación, cromatografía y fisiología humana."
+      ],
+      "objectives": [
+        "Desarrollar las 20 prácticas quincenales de Educación Media con notación SI/IUPAC.",
+        "Contar con el documento completo editable en Word para docente y estudiantes."
+      ],
+      "tableOfContents": [
+        "1. Jornalización quincenal 2027 (Prácticas 1 a 20)",
+        "2. Unidades 1 a 4: Electroquímica, Electromagnetismo, Óptica y Química Orgánica",
+        "3. Unidades 5 a 8: Compuestos Orgánicos, Biomoléculas, Célula y Fisiología"
+      ],
+      "featured": true,
+      "published": true,
+      "hasCustomFile": true,
+      "customFilePath": "word-0d7be3aa-742c-4543-9853-fe023e6c44f9.docx",
+      "customFileName": "Manual_General_Practicas_1er_Ano_Bachillerato.docx",
+      "customFileMime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sourceWordId": "word-manual-1ro-bach-2027",
+      "downloadCount": 0,
+      "createdAt": "2026-11-24T14:41:00.000Z",
+      "contentSections": []
+    },
+    {
+      "id": "mat-manual-practicas-2do-bach",
+      "title": "Manual Completo de Prácticas de Laboratorio — 2° Año Bachillerato",
+      "subtitle": "Manual MINED completo sin desglosar en Word (.docx) con 20 prácticas quincenales (2027).",
+      "category": "practicas",
+      "subjectArea": "Ciencia y Tecnología (Educación Media)",
+      "level": "Bachillerato",
+      "grade": "2° Año Bachillerato",
+      "price": 10,
+      "currency": "USD",
+      "format": "DOCX Completo (Editable)",
+      "pages": 44,
+      "durationOrScope": "8 Unidades · 20 Prácticas Quincenales",
+      "coverImage": "/src/assets/images/cat_practicas_microscope_1795526712665.jpg",
+      "previewExcerpt": "Manual íntegro de 2° Año de Bachillerato sin desglosar en Word editable. Cubre Ciencias del Espacio, Física Moderna, Genética Evolutiva, Biodiversidad, Biotecnología Microbiana y Vegetal, Ciencia de Materiales y Ecología.",
+      "generalOverviewPoints": [
+        "Unidades 1 y 2: Masa de la Tierra, tránsito de exoplanetas, constante de Planck y vida media.",
+        "Unidades 3 y 4: Mitosis, prueba Chi-cuadrado, similitud Jaccard/Sørensen y UPGMA.",
+        "Unidades 5 a 8: Microbiología estéril, hidroponía, bioplásticos, DBO y calidad del agua."
+      ],
+      "objectives": [
+        "Ejecutar las 20 prácticas preuniversitarias de 2° Año con enfoque investigativo.",
+        "Contar con el manual íntegro editable en Word listo para clase."
+      ],
+      "tableOfContents": [
+        "1. Jornalización anual quincenal 2027",
+        "2. Unidades 1 a 4: Astrofísica, Física Moderna, Genética y Biodiversidad",
+        "3. Unidades 5 a 8: Biotecnología Microbiana, Vegetal, Materiales y Ecología"
+      ],
+      "featured": false,
+      "published": true,
+      "hasCustomFile": true,
+      "customFilePath": "word-ff8f6fa0-e875-4532-8c61-dc69bb5e4a5b.docx",
+      "customFileName": "Manual_General_Practicas_2do_Ano_Bachillerato.docx",
+      "customFileMime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sourceWordId": "word-manual-2do-bach-2027",
+      "downloadCount": 0,
+      "createdAt": "2026-11-24T14:41:00.000Z",
+      "contentSections": []
+    }
+  ],
+  "orders": [],
+  "wordDocs": [
+    {
+      "id": "word-manual-7mo-2027",
+      "title": "Manual de Prácticas de Laboratorio — 7.º Grado (Ciencia y Tecnología)",
+      "fileName": "Manual_Practicas_7mo_Grado_Ciencia_y_Tecnologia.docx",
+      "grade": "7° Grado",
+      "subjectArea": "Ciencia y Tecnología",
+      "docType": "manual_practica",
+      "extractedText": "MANUAL DE PRÁCTICAS DE LABORATORIO 7° GRADO: Unidad 1 Compuestos Inorgánicos; Unidad 2 Genética y Evolución; Unidad 3 Biodiversidad; Unidad 4 Ecología; Unidad 5 Recurso Hídrico; Unidad 6 Ambiente y Energía.",
+      "wordCount": 7420,
+      "storedFilePath": "word-17997560-bf84-4159-9eb8-ac0b1b657ff7.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "generatedMaterialIds": [
+        "mat-guia-teoria-7mo-grado",
+        "mat-plan-docente-7mo-grado"
+      ],
+      "uploadedAt": "2026-11-24T14:41:00.000Z"
+    },
+    {
+      "id": "word-manual-8vo-2027",
+      "title": "Manual de Prácticas de Laboratorio — 8.º Grado (Ciencia y Tecnología)",
+      "fileName": "Manual_Practicas_8vo_Grado_Ciencia_y_Tecnologia.docx",
+      "grade": "8° Grado",
+      "subjectArea": "Ciencia y Tecnología",
+      "docType": "manual_practica",
+      "extractedText": "MANUAL DE PRÁCTICAS DE LABORATORIO 8° GRADO: Unidad 1 Mecánica; Unidad 2 Energía; Unidad 3 Ondas Mecánicas; Unidad 4 Estequiometría y Dispersiones; Unidad 5 Minerales; Unidad 6 Anatomía y Fisiología Vegetal; Unidad 7 Anatomía y Fisiología Animal.",
+      "wordCount": 10340,
+      "storedFilePath": "word-c43cf9ca-cea7-458a-abe5-4f71ab348106.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "generatedMaterialIds": [
+        "mat-guia-teoria-8vo-grado",
+        "mat-plan-docente-8vo-grado"
+      ],
+      "uploadedAt": "2026-11-24T14:41:00.000Z"
+    },
+    {
+      "id": "word-manual-9no-2027",
+      "title": "Manual de Prácticas de Laboratorio — 9.º Grado (Ciencia y Tecnología)",
+      "fileName": "Manual_Practicas_9no_Grado_Ciencia_y_Tecnologia.docx",
+      "grade": "9° Grado",
+      "subjectArea": "Ciencia y Tecnología",
+      "docType": "manual_practica",
+      "extractedText": "MANUAL DE PRÁCTICAS DE LABORATORIO 9° GRADO: Unidad 1 Mecánica de Fluidos; Unidad 2 Calor y Temperatura; Unidad 3 Equilibrio Químico; Unidad 4 Oceanografía; Unidad 5 Geología de El Salvador; Unidad 6 Electricidad; Unidad 7 Magnetismo Aplicado.",
+      "wordCount": 9580,
+      "storedFilePath": "word-2b54aed0-37aa-4c9b-abf5-05a89d6566af.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "generatedMaterialIds": [
+        "mat-guia-teoria-9no-grado",
+        "mat-plan-docente-9no-grado"
+      ],
+      "uploadedAt": "2026-11-24T14:41:00.000Z"
+    },
+    {
+      "id": "word-manual-1ro-bach-2027",
+      "title": "Manual General de Prácticas de Laboratorio — 1.º Año de Bachillerato",
+      "fileName": "Manual_General_Practicas_1er_Ano_Bachillerato.docx",
+      "grade": "1° Año Bachillerato",
+      "subjectArea": "Ciencia y Tecnología (Educación Media)",
+      "docType": "manual_practica",
+      "extractedText": "MANUAL GENERAL DE PRÁCTICAS 1° AÑO BACHILLERATO: Unidad 1 Electroquímica; Unidad 2 Electromagnetismo; Unidad 3 Óptica; Unidad 4 Introducción a la Química Orgánica; Unidad 5 Compuestos Orgánicos; Unidad 6 Biomoléculas; Unidad 7 Biología Celular; Unidad 8 Anatomía y Fisiología Humana.",
+      "wordCount": 8420,
+      "storedFilePath": "word-0d7be3aa-742c-4543-9853-fe023e6c44f9.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "generatedMaterialIds": [
+        "mat-guia-teoria-1ro-bach",
+        "mat-plan-docente-1ro-bach"
+      ],
+      "uploadedAt": "2026-11-24T14:41:00.000Z"
+    },
+    {
+      "id": "word-manual-2do-bach-2027",
+      "title": "Manual General de Prácticas de Laboratorio — 2.º Año de Bachillerato",
+      "fileName": "Manual_General_Practicas_2do_Ano_Bachillerato.docx",
+      "grade": "2° Año Bachillerato",
+      "subjectArea": "Ciencia y Tecnología (Educación Media)",
+      "docType": "manual_practica",
+      "extractedText": "MANUAL GENERAL DE PRÁCTICAS 2° AÑO BACHILLERATO: Unidad 1 Ciencias del Espacio; Unidad 2 Introducción a la Física Moderna; Unidad 3 Bases Genéticas de la Evolución; Unidad 4 Análisis de Biodiversidad; Unidad 5 Biotecnología Microbiana; Unidad 6 Biotecnología Vegetal y Agroindustria; Unidad 7 Ciencia de Materiales; Unidad 8 Ecología y Ambiente.",
+      "wordCount": 8290,
+      "storedFilePath": "word-ff8f6fa0-e875-4532-8c61-dc69bb5e4a5b.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "generatedMaterialIds": [
+        "mat-guia-teoria-2do-bach",
+        "mat-plan-docente-2do-bach"
+      ],
+      "uploadedAt": "2026-11-24T14:41:00.000Z"
+    }
+  ]
+}

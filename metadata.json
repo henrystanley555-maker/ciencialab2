@@ -1,0 +1,6 @@
+{
+  "name": "CienciaLab Editorial",
+  "description": "Tienda digital y espacio creador para descargar y monetizar folletos, prácticas de laboratorio, apuntes y planificaciones de Ciencia y Tecnología.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
