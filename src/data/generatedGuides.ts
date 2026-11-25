@@ -1,4 +1,4 @@
-import type { MaterialAdmin } from '../src/types.ts';
+import type { MaterialAdmin } from '../types.ts';
 
 export const COMPLEMENTARY_PRACTICE_GUIDES: MaterialAdmin[] = [
   {

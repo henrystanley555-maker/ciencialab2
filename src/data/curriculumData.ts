@@ -1,8 +1,30 @@
-import type { MaterialAdmin, WordDocumentRecord } from '../src/types.ts';
+import type { MaterialAdmin, MaterialPublic, MaterialSection, WordDocumentRecord } from '../types.ts';
 import { COMPLEMENTARY_PRACTICE_GUIDES } from './generatedGuides.ts';
 
 function guideIdsForSlug(slug: string): string[] {
   return COMPLEMENTARY_PRACTICE_GUIDES.filter((g) => g.id.startsWith(`mat-guia-${slug}-`)).map((g) => g.id);
+}
+
+function buildManualSectionsForGrade(grade: MaterialAdmin['grade']): MaterialSection[] {
+  const guides = COMPLEMENTARY_PRACTICE_GUIDES.filter((g) => g.grade === grade);
+  if (guides.length === 0) return [];
+
+  const byUnit = new Map<string, string[]>();
+  for (const g of guides) {
+    const unit = g.durationOrScope.split('·')[0]?.trim() || 'Prácticas de Laboratorio';
+    const list = byUnit.get(unit) || [];
+    const objective = g.objectives[0] ? ` — ${g.objectives[0]}` : '';
+    list.push(`${g.title.replace(/^Guion\s+/i, '')}${objective}`);
+    byUnit.set(unit, list);
+  }
+
+  return Array.from(byUnit.entries()).map(([unit, practices]) => ({
+    heading: unit,
+    body: `Experiencias experimentales integradas en el manual de ${grade} (${practices.length} ${
+      practices.length === 1 ? 'práctica' : 'prácticas'
+    }).`,
+    bullets: practices
+  }));
 }
 
 export const UPLOADED_WORD_DOCS: WordDocumentRecord[] = [
@@ -1085,10 +1107,105 @@ const MANUALS_AND_PLANS: MaterialAdmin[] = [
         ]
       }
     ]
+  },
+
+  // =========================================================================
+  // GESTIÓN ACADÉMICA: Recursos Institucionales y Formatos ($15 USD pack)
+  // =========================================================================
+  {
+    id: 'mat-gestion-academica-pack-docente',
+    title: 'Carpeta Integral de Gestión Académica y Formatos de Laboratorio (.ZIP / PDF)',
+    subtitle: 'Colección institucional de jornalizaciones, actas de laboratorio, rúbricas y registros de evaluación.',
+    category: 'folletos',
+    subjectArea: 'Gestión Académica',
+    level: 'Gestión Académica',
+    grade: 'Gestión Académica',
+    price: 15,
+    currency: 'USD',
+    format: 'Archivo ZIP · Gestión Académica',
+    pages: 6,
+    durationOrScope: 'Colección Institucional Completa · 8 Documentos Maestros',
+    coverImage: '/src/assets/images/cat_folletos_chemistry_1795526711774.jpg',
+    previewExcerpt:
+      'Compilación administrativa y pedagógica para docentes de Ciencia y Tecnología: plantillas de jornalización anual, actas de entrega de equipo, fichas de inventario químico, control de asistencia y rúbricas de evaluación experimental.',
+    generalOverviewPoints: [
+      'Formatos estandarizados para 4° Grado a 2° Año de Bachillerato.',
+      'Actas de préstamo de cristalería, inventario de reactivos y reporte de incidentes.',
+      'Rúbricas listas para evaluar bitácoras, ferias científicas y prácticas guiadas.'
+    ],
+    zipEntries: [
+      '01_Jornalizacion_Anual_Ciencia_y_Tecnologia.docx',
+      '02_Acta_Uso_y_Responsabilidad_Laboratorio.pdf',
+      '03_Inventario_Reactivos_y_Materiales_SI.xlsx',
+      '04_Rubrica_Evaluacion_Practicas_40_35_25.pdf',
+      '05_Lista_Cotejo_Bioseguridad_Escolar.pdf',
+      '06_Control_Asistencia_y_Equipos_Trabajo.xlsx',
+      '07_Formato_Informe_Cientifico_Estudiante.docx',
+      '08_Carta_Autorizacion_Salidas_y_Proyectos.pdf'
+    ],
+    objectives: [
+      'Estandarizar la documentación administrativa del departamento o área de Ciencia y Tecnología.',
+      'Agilizar el control de inventario, préstamos de laboratorio y evaluación por competencias.'
+    ],
+    tableOfContents: [
+      '1. Control administrativo y jornalizaciones anuales',
+      '2. Inventario de materiales, reactivos y actas de laboratorio',
+      '3. Rúbricas de evaluación experimental e informes estudiantiles'
+    ],
+    featured: true,
+    published: true,
+    hasCustomFile: false,
+    downloadCount: 0,
+    createdAt: '2026-11-24T14:50:00.000Z',
+    contentSections: [
+      {
+        heading: '1. Formatos de Planificación y Jornalización Institucional',
+        body: 'Incluye plantillas organizadas por trimestre y unidad para registrar avances semanales, indicadores de logro y fechas de prácticas de laboratorio desde 4° Grado hasta 2° Año de Bachillerato.',
+        bullets: [
+          'Matriz anual por trimestre y calendario quincenal de sesiones experimentales.',
+          'Registro de adecuaciones curriculares y seguimiento de equipos estudiantiles.'
+        ]
+      },
+      {
+        heading: '2. Inventario, Actas de Uso y Protocolos de Bioseguridad',
+        body: 'Documentación lista para control interno del laboratorio escolar: entradas y salidas de materiales, verificación de etiquetas y listas de cotejo de seguridad.',
+        bullets: [
+          'Acta de asignación de mesas, cristalería e instrumentos por equipo de trabajo.',
+          'Lista de chequeo previo (bata, ventilación, extintor, botiquín y manejo de residuos).'
+        ]
+      },
+      {
+        heading: '3. Instrumentos de Evaluación y Formatos Estudiantiles',
+        body: 'Modelos descargables de informe científico breve, rúbrica analítica 40/35/25% y guía de evaluación para ferias científicas escolares.',
+        bullets: [
+          'Estructura unificada: Hipótesis, Materiales, Observaciones, Tabla de datos y Conclusión.',
+          'Lista de cotejo para exposición oral y defensa de proyectos trimestrales.'
+        ]
+      }
+    ]
   }
 ];
 
+const ENRICHED_MANUALS_AND_PLANS: MaterialAdmin[] = MANUALS_AND_PLANS.map((item) => {
+  if (item.category === 'practicas' && item.contentSections.length === 0) {
+    return {
+      ...item,
+      contentSections: buildManualSectionsForGrade(item.grade)
+    };
+  }
+  return item;
+});
+
 export const GENERATED_COMPLEMENTARY_MATERIALS: MaterialAdmin[] = [
-  ...MANUALS_AND_PLANS,
+  ...ENRICHED_MANUALS_AND_PLANS,
   ...COMPLEMENTARY_PRACTICE_GUIDES
 ];
+
+export function toPublicSeedMaterial(m: MaterialAdmin): MaterialPublic {
+  const { contentSections: _sections, customFilePath: _path, customFileMime: _mime, ...publicFields } = m;
+  return publicFields;
+}
+
+export const PUBLIC_SEED_MATERIALS: MaterialPublic[] = GENERATED_COMPLEMENTARY_MATERIALS.filter(
+  (m) => m.published
+).map(toPublicSeedMaterial);

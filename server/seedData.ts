@@ -1,5 +1,5 @@
 import type { MaterialAdmin, WordDocumentRecord } from '../src/types.ts';
-import { GENERATED_COMPLEMENTARY_MATERIALS, UPLOADED_WORD_DOCS } from './curriculumData.ts';
+import { GENERATED_COMPLEMENTARY_MATERIALS, UPLOADED_WORD_DOCS } from '../src/data/curriculumData.ts';
 
 export const LEGACY_RETIRED_MATERIAL_IDS = new Set([
   'mat-folleto-seguridad-laboratorio',

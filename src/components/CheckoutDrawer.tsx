@@ -32,6 +32,7 @@ export function CheckoutDrawer({
     paypalOrderId: string;
     approvalUrl: string | null;
     mode: 'live' | 'sandbox';
+    pendingToken?: string;
   } | null>(null);
 
   const [processing, setProcessing] = useState(false);
@@ -80,7 +81,8 @@ export function CheckoutDrawer({
       setPendingPaypal({
         paypalOrderId: data.paypalOrderId,
         approvalUrl: data.approvalUrl,
-        mode: data.mode
+        mode: data.mode,
+        pendingToken: data.pendingToken
       });
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Error iniciando PayPal.');
@@ -98,7 +100,10 @@ export function CheckoutDrawer({
       const res = await fetch('/api/checkout/paypal/capture', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ paypalOrderId: pendingPaypal.paypalOrderId })
+        body: JSON.stringify({
+          paypalOrderId: pendingPaypal.paypalOrderId,
+          pendingToken: pendingPaypal.pendingToken
+        })
       });
       const data = await res.json();
       if (!res.ok) {

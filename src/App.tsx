@@ -24,6 +24,7 @@ import {
   HERO_IMAGE,
   formatUsd
 } from './constants.ts';
+import { PUBLIC_SEED_MATERIALS } from './data/curriculumData.ts';
 import { CheckoutDrawer } from './components/CheckoutDrawer.tsx';
 import { CreatorStudio, type StudioTab } from './components/CreatorStudio.tsx';
 import { DownloadsVault } from './components/DownloadsVault.tsx';
@@ -66,8 +67,8 @@ const PRIMARY_GRADE_SLOTS: CurriculumSlotDef[] = [
 ];
 
 export default function App() {
-  const [materials, setMaterials] = useState<MaterialPublic[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [materials, setMaterials] = useState<MaterialPublic[]>(PUBLIC_SEED_MATERIALS);
+  const [loading, setLoading] = useState(false);
   const [loadError, setLoadError] = useState<string | null>(null);
 
   const [activeGradeTab, setActiveGradeTab] = useState<GradeLevel>('4° Grado');
@@ -79,7 +80,13 @@ export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const [orders, setOrders] = useState<OrderRecord[]>([]);
-  const [paymentConfig, setPaymentConfig] = useState<PaymentGatewayConfig | null>(null);
+  const [paymentConfig, setPaymentConfig] = useState<PaymentGatewayConfig | null>({
+    paypalConfigured: false,
+    paypalClientId: null,
+    paypalMode: 'sandbox',
+    stripeConfigured: false,
+    sandboxFallbackActive: true
+  });
   const [adminToken, setAdminToken] = useState<string | null>(null);
 
   const [studioRequest, setStudioRequest] = useState<{
@@ -96,18 +103,21 @@ export default function App() {
     try {
       setLoadError(null);
       const [matRes, payRes] = await Promise.all([fetch('/api/materials'), fetch('/api/payments/config')]);
-      if (!matRes.ok) {
-        throw new Error('No se pudo cargar el catálogo de materiales.');
+      const matContentType = matRes.headers.get('content-type') || '';
+      if (matRes.ok && matContentType.includes('application/json')) {
+        const matData = (await matRes.json()) as { materials?: MaterialPublic[] };
+        if (Array.isArray(matData.materials) && matData.materials.length > 0) {
+          setMaterials(matData.materials);
+        }
       }
-      const matData = (await matRes.json()) as { materials: MaterialPublic[] };
-      setMaterials(matData.materials);
 
-      if (payRes.ok) {
+      const payContentType = payRes.headers.get('content-type') || '';
+      if (payRes.ok && payContentType.includes('application/json')) {
         const payData = (await payRes.json()) as PaymentGatewayConfig;
         setPaymentConfig(payData);
       }
-    } catch (err) {
-      setLoadError(err instanceof Error ? err.message : 'Error de conexión con el servidor.');
+    } catch {
+      // Preserva PUBLIC_SEED_MATERIALS empaquetado en código si el API no está disponible aún
     } finally {
       setLoading(false);
     }
